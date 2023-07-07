@@ -1,0 +1,17 @@
+C:\Users\Brand\source\repos\UEServerDummy\UEServerDummy\bin\Release\net6.0-windows\UEServerDummy.exe
+C:\Users\Brand\source\repos\UEServerDummy\UEServerDummy\bin\Release\net6.0-windows\UEServerDummy.deps.json
+C:\Users\Brand\source\repos\UEServerDummy\UEServerDummy\bin\Release\net6.0-windows\UEServerDummy.runtimeconfig.json
+C:\Users\Brand\source\repos\UEServerDummy\UEServerDummy\bin\Release\net6.0-windows\UEServerDummy.dll
+C:\Users\Brand\source\repos\UEServerDummy\UEServerDummy\bin\Release\net6.0-windows\UEServerDummy.pdb
+C:\Users\Brand\source\repos\UEServerDummy\UEServerDummy\obj\Release\net6.0-windows\UEServerDummy.csproj.AssemblyReference.cache
+C:\Users\Brand\source\repos\UEServerDummy\UEServerDummy\obj\Release\net6.0-windows\UEServerDummy.Form1.resources
+C:\Users\Brand\source\repos\UEServerDummy\UEServerDummy\obj\Release\net6.0-windows\UEServerDummy.csproj.GenerateResource.cache
+C:\Users\Brand\source\repos\UEServerDummy\UEServerDummy\obj\Release\net6.0-windows\UEServerDummy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brand\source\repos\UEServerDummy\UEServerDummy\obj\Release\net6.0-windows\UEServerDummy.AssemblyInfoInputs.cache
+C:\Users\Brand\source\repos\UEServerDummy\UEServerDummy\obj\Release\net6.0-windows\UEServerDummy.AssemblyInfo.cs
+C:\Users\Brand\source\repos\UEServerDummy\UEServerDummy\obj\Release\net6.0-windows\UEServerDummy.csproj.CoreCompileInputs.cache
+C:\Users\Brand\source\repos\UEServerDummy\UEServerDummy\obj\Release\net6.0-windows\UEServerDummy.dll
+C:\Users\Brand\source\repos\UEServerDummy\UEServerDummy\obj\Release\net6.0-windows\refint\UEServerDummy.dll
+C:\Users\Brand\source\repos\UEServerDummy\UEServerDummy\obj\Release\net6.0-windows\UEServerDummy.pdb
+C:\Users\Brand\source\repos\UEServerDummy\UEServerDummy\obj\Release\net6.0-windows\UEServerDummy.genruntimeconfig.cache
+C:\Users\Brand\source\repos\UEServerDummy\UEServerDummy\obj\Release\net6.0-windows\ref\UEServerDummy.dll

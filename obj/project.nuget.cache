@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "pF7HHrRa1bEX99rNIsPcvhFVKkxh0Dmt9V4dlQ3AvPyeeb3nnan5hJeq+fUIf5w9pa+nkPrXo7Hof1+RL7q5DQ==",
+  "dgSpecHash": "fh7Y+OaG102m95EgaAKe6xBZ/k+h/FHbYH8XO+TxsamouD0+mv7ZVcfgp7to7qp8Guwu7SobtfK+sExnfgIFbg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Brand\\source\\repos\\UEServerDummy\\UEServerDummy\\UEServerDummy.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Brand\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.16\\microsoft.aspnetcore.app.runtime.win-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\Brand\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.16\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\Brand\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.16\\microsoft.netcore.app.runtime.win-x64.6.0.16.nupkg.sha512"
+  ],
   "logs": []
 }

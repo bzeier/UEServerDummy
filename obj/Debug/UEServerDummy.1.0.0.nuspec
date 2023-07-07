@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>UEServerDummy</id>
+    <version>1.0.0</version>
+    <authors>UEServerDummy</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Brand\source\repos\UEServerDummy\UEServerDummy\bin\Debug\net6.0-windows\UEServerDummy.runtimeconfig.json" target="lib\net6.0-windows7.0\UEServerDummy.runtimeconfig.json" />
+    <file src="C:\Users\Brand\source\repos\UEServerDummy\UEServerDummy\bin\Debug\net6.0-windows\UEServerDummy.dll" target="lib\net6.0-windows7.0\UEServerDummy.dll" />
+  </files>
+</package>
