@@ -46,6 +46,8 @@ namespace UEServerDummy
             label8 = new Label();
             label9 = new Label();
             label10 = new Label();
+            pictureBox2 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -56,7 +58,6 @@ namespace UEServerDummy
             label1.Size = new Size(27, 25);
             label1.TabIndex = 0;
             label1.Text = "IP";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -94,25 +95,25 @@ namespace UEServerDummy
             label6.BackColor = SystemColors.ControlDark;
             label6.Location = new Point(535, 9);
             label6.Name = "label6";
-            label6.Size = new Size(86, 25);
+            label6.Size = new Size(55, 25);
             label6.TabIndex = 5;
-            label6.Text = "Initialized";
+            label6.Text = "None";
             // 
             // button1
             // 
             button1.BackColor = Color.Brown;
-            button1.Location = new Point(25, 90);
+            button1.Location = new Point(25, 89);
             button1.Margin = new Padding(5);
             button1.Name = "button1";
             button1.Size = new Size(139, 34);
             button1.TabIndex = 6;
-            button1.Text = "Stop Server";
+            button1.Text = "Shutdown";
             button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
             button2.BackColor = SystemColors.ButtonFace;
-            button2.Location = new Point(170, 90);
+            button2.Location = new Point(170, 89);
             button2.Margin = new Padding(5);
             button2.Name = "button2";
             button2.Size = new Size(169, 34);
@@ -122,7 +123,7 @@ namespace UEServerDummy
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(25, 157);
+            textBox1.Location = new Point(25, 156);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(215, 31);
             textBox1.TabIndex = 8;
@@ -130,7 +131,7 @@ namespace UEServerDummy
             // button3
             // 
             button3.BackColor = SystemColors.ButtonFace;
-            button3.Location = new Point(246, 155);
+            button3.Location = new Point(246, 154);
             button3.Name = "button3";
             button3.Size = new Size(79, 34);
             button3.TabIndex = 9;
@@ -140,7 +141,7 @@ namespace UEServerDummy
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(25, 129);
+            label7.Location = new Point(25, 128);
             label7.Name = "label7";
             label7.Size = new Size(169, 25);
             label7.TabIndex = 10;
@@ -161,7 +162,7 @@ namespace UEServerDummy
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(25, 60);
+            label8.Location = new Point(25, 59);
             label8.Name = "label8";
             label8.Size = new Size(125, 25);
             label8.TabIndex = 12;
@@ -170,7 +171,7 @@ namespace UEServerDummy
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(660, 9);
+            label9.Location = new Point(693, 9);
             label9.Name = "label9";
             label9.Size = new Size(51, 25);
             label9.TabIndex = 13;
@@ -180,11 +181,21 @@ namespace UEServerDummy
             // 
             label10.AutoSize = true;
             label10.BackColor = SystemColors.Control;
-            label10.Location = new Point(717, 9);
+            label10.Location = new Point(750, 9);
+            label10.MinimumSize = new Size(40, 5);
             label10.Name = "label10";
-            label10.Size = new Size(22, 25);
+            label10.Size = new Size(40, 25);
             label10.TabIndex = 14;
             label10.Text = "0";
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackColor = Color.DarkSlateGray;
+            pictureBox2.Location = new Point(12, 39);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(780, 1);
+            pictureBox2.TabIndex = 16;
+            pictureBox2.TabStop = false;
             // 
             // Form1
             // 
@@ -192,6 +203,7 @@ namespace UEServerDummy
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(800, 450);
+            Controls.Add(pictureBox2);
             Controls.Add(label10);
             Controls.Add(label9);
             Controls.Add(label8);
@@ -209,6 +221,7 @@ namespace UEServerDummy
             Name = "Form1";
             Text = "Wurms Online - Dedicated Server Instance";
             Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -229,5 +242,6 @@ namespace UEServerDummy
         private Label label8;
         private Label label9;
         private Label label10;
+        private PictureBox pictureBox2;
     }
 }
