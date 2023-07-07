@@ -47,6 +47,7 @@ namespace UEServerDummy
             label9 = new Label();
             label10 = new Label();
             pictureBox2 = new PictureBox();
+            label11 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
@@ -109,21 +110,22 @@ namespace UEServerDummy
             button1.TabIndex = 6;
             button1.Text = "Shutdown";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
             button2.BackColor = SystemColors.ButtonFace;
-            button2.Location = new Point(170, 89);
+            button2.Location = new Point(25, 165);
             button2.Margin = new Padding(5);
             button2.Name = "button2";
-            button2.Size = new Size(169, 34);
+            button2.Size = new Size(149, 34);
             button2.TabIndex = 7;
             button2.Text = "Kick All Players";
             button2.UseVisualStyleBackColor = false;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(25, 156);
+            textBox1.Location = new Point(209, 168);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(215, 31);
             textBox1.TabIndex = 8;
@@ -131,7 +133,7 @@ namespace UEServerDummy
             // button3
             // 
             button3.BackColor = SystemColors.ButtonFace;
-            button3.Location = new Point(246, 154);
+            button3.Location = new Point(430, 166);
             button3.Name = "button3";
             button3.Size = new Size(79, 34);
             button3.TabIndex = 9;
@@ -141,7 +143,7 @@ namespace UEServerDummy
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(25, 128);
+            label7.Location = new Point(209, 135);
             label7.Name = "label7";
             label7.Size = new Size(169, 25);
             label7.TabIndex = 10;
@@ -197,12 +199,22 @@ namespace UEServerDummy
             pictureBox2.TabIndex = 16;
             pictureBox2.TabStop = false;
             // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(25, 135);
+            label11.Name = "label11";
+            label11.Size = new Size(122, 25);
+            label11.TabIndex = 17;
+            label11.Text = "Game Control";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(800, 450);
+            Controls.Add(label11);
             Controls.Add(pictureBox2);
             Controls.Add(label10);
             Controls.Add(label9);
@@ -243,5 +255,6 @@ namespace UEServerDummy
         private Label label9;
         private Label label10;
         private PictureBox pictureBox2;
+        private Label label11;
     }
 }
